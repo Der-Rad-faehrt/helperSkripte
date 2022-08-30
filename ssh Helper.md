@@ -1,4 +1,4 @@
-##SSH Key generieren
+## SSH Key generieren
 
 ssh-keygen -t ed25519 \
   -a 420 \
@@ -10,7 +10,7 @@ ssh-copy-id \
   -i ~/.ssh/demo.ed25519.pub \
   demo
 
-##Bsp SSH Config
+## Bsp SSH Config
 
 Host demo bastion
   HostName ssh.example.com 
