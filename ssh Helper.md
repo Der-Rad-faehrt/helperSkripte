@@ -1,11 +1,9 @@
 ## SSH Key generieren
 
-'''
 ssh-keygen -t ed25519 \
   -a 420 \
   -f ~/.ssh/demo.ed25519 \
   -C "Kommentar"
-'''
 
 ## Key kopieren 
 ssh-copy-id \
